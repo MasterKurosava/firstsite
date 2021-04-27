@@ -1,0 +1,110 @@
+
+@font-face{
+	font-family: 'RubikMed';
+	src:url('../Fonts/Rubik-Medium.ttf');
+}
+@font-face{
+	font-family: 'SansReg';
+	src:url('../Fonts/OpenSans-Regular.ttf');
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'RubikMed';
+}
+body{
+	width: 100%;
+	height: 3220px;
+}
+li{
+	list-style-type: none;
+	font-size: 1.3em;
+	color: teal;
+	font-family: 'RubikMed';
+}
+a{
+	text-decoration: none;
+	color: burlywood;
+}
+.all{
+	width: 100%;
+	height: 100%;
+	background-color: 	#e9e6e0;
+}
+header{
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	background-image: url("https://images.unsplash.com/photo-1560955223-142459b46ecb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position-y: -300px;
+}
+
+#main_h1{
+	font-size: 2.8em;
+	color: white;
+}
+.all{
+	width: 1260px;
+	height: 100%;
+	margin: auto;
+}
+nav div{
+	margin: 40px auto 60px auto;
+	width: 700px;
+}
+nav div ul{
+	display: flex;
+	justify-content: space-around;
+}
+.news{
+	position: relative;
+	display: block;
+	width: 800px;
+	margin: auto;
+	align-items: center;
+}
+p, span{
+	font-family: 'RubikMed';
+}
+.new{
+	margin: 50px auto 50px auto;
+	width: 600px;
+	background-color: #f0f0f0;
+	padding: 20px 50px;
+	border-radius: 3%;
+}
+.new img{
+	width: 600px;
+	height: 300px;
+	margin: 10px 0 10px 0;
+}
+p.bold{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.light{
+	color: #636b6f;
+	font-weight: normal;
+}
+.light span{
+	color: black;
+	font-weight: normal;
+}
+.new:nth-of-type(2n){
+	background-color: #dcdcdc;
+}
+.nov:after{
+	content: " Новое";
+	color: crimson;
+	font-size: 0.8em;
+}
+.copy{
+	color: gray;
+}
+#footer{
+	text-align: center;
+}
